@@ -1,0 +1,83 @@
+.ant-card-cover {
+  margin: 0 !important;
+  overflow: hidden;
+}
+.ant-layout-header {
+  line-height: normal !important;
+  background-color: var(--color-white) !important;
+}
+.ant-select-selector {
+  border-radius: 48px !important;
+  border: 1px solid var(--color-dustyGray) !important;
+}
+.ant-upload {
+  &.ant-upload-select-picture-card {
+    transform: scale(1.1);
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    background-color: var(--color-silver) !important;
+  }
+}
+.ant-upload-list-picture-card-container {
+  margin: 0px !important;
+}
+.ant-upload-list-item {
+  margin-top: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.color-selectiveYellow {
+  color: var(--color-selectiveYellow);
+}
+.color-gray {
+  color: var(--color-gray);
+}
+.color-black {
+  color: var(--color-black);
+}
+// .ant-progress-status-success,
+// .ant-progress-bg,
+.ant-progress-success-bg {
+  background-color: var(--color-cerulean) !important;
+}
+
+.ant-spin-blur {
+  opacity: 0.1 !important;
+}
+.ant-spin-nested-loading > div > .ant-spin {
+  max-height: 100vh !important;
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type='number'] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.ant-layout > .ant-spin-nested-loading > div > .ant-spin {
+    position: fixed !important
+}
+.ant-breadcrumb {
+  font-weight: bold !important
+}
+.text-color-selectiveYellow {
+  color: var(--color-selectiveYellow) !important;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-color-scorpion {
+  color: var(--color-scorpion) !important
+}
+.ant-tabs-nav-list{
+  margin-left: 0 !important;
+}

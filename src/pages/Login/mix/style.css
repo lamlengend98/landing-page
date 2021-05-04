@@ -1,0 +1,6 @@
+.social-login__button {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}

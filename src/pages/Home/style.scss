@@ -1,0 +1,129 @@
+@import "../../styles/mixin.scss";
+
+$textColorDark: #424b59;
+$orange: #ff8933;
+
+flexDir {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  max-width: 100% !important;
+  margin: auto;
+
+  @include xl-up {
+  }
+}
+
+.header_navbar {
+  @extend flexDir;
+  align-items: center;
+  background-color: lightgreen;
+  position: fixed;
+  width: 75%;
+  padding-right: 15px;
+
+  @include xl-down {
+    width: 100%;
+    padding-right: 15px !important;
+  }
+  .logo {
+    width: 5%;
+
+    img {
+      width: 60px;
+    }
+  }
+}
+.text-right {
+  display: none;
+  width: 55%;
+  margin-right: 10%;
+
+  @include lg-up {
+    display: block;
+    .navbar_title {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: space-between;
+      margin: 0;
+    }
+  }
+  li {
+    cursor: pointer;
+    font-family: 'roboto';
+  }
+}
+.btn-right {
+  @extend flexDir;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-left: 5%;
+}
+.bg-btn-white {
+  padding: 0 2rem;
+  border-radius: 2rem;
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  font-size: 1em;
+  align-items: center;
+  background-color: #5d5d5d;
+  font-family: 'roboto';
+  :hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+}
+.dropdown-toggle {
+  @extend flexDir;
+  background-color: transparent !important;
+  border-width: 0 !important;
+  width: 8rem !important;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'roboto'
+}
+
+.content-container {
+  padding: 9px;
+  margin-top: 55px;
+  border: 1px solid red;
+  
+  .row__double {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 30px;
+  }
+}
+
+.landing-1 {
+  @extend flexDir;
+  width: 100%;
+
+  .child {
+    width: 50%;
+    padding: 50px 0 0 50px;
+    .text-child {
+      font-family: 'star';
+      // color: $textColor;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 62px;
+      text-transform: uppercase;
+
+      .orange {
+        color: $orange;
+      }
+    }
+  }
+  .child-1 {
+    margin-top: 100px;
+  }
+}
+
+

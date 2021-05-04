@@ -1,0 +1,32 @@
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+@import './colors.scss';
+@import './atomics.scss';
+@import './custom.scss';
+@import './animate.scss';
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url('/fonts/GOTHAMRND-MEDIUM.TTF');
+}
+
+@font-face {
+  font-family: 'GothamRound';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url('/fonts/GothamRnd-Medium_0.ttf');
+}

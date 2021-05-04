@@ -1,0 +1,19 @@
+@import '../../styles/mixin.scss';
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.anticon-close-circle {
+  width: 47%!important;
+  display: flex!important;
+  justify-content: flex-end!important;
+}
+.ant-alert-content {
+  display: flex!important;
+  justify-content: center !important;
+  width: 50% !important;
+}

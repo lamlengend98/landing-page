@@ -1,0 +1,21 @@
+@import "../../styles/mixin.scss";
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  @include sm-up {
+    p {
+      color: blue;
+    }
+  }
+}
+.icon {
+  svg {
+    margin: auto !important;
+  }
+}

@@ -1,0 +1,38 @@
+/* Absolute Center Spinner */
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-radial-gradient(rgba(20, 20, 20, 0.699), rgba(0, 0, 0,.8));
+}
+.example {
+  padding: 30px 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  flex: 1;
+  display: flex;
+  
+}
+._loading_overlay_wrapper {
+  height: 100% !important;
+}
+
+

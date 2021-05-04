@@ -1,0 +1,19 @@
+.row__double--right{
+  border-left-width: 1px !important;
+  border-left-color: black !important;
+  padding-left: 10px !important;
+}
+.row__double--left{
+  border-right-width: 1px !important;
+  border-left-color: black !important;
+  padding-right: 10px !important;
+}
+.input-field {
+  font-size: 11px !important;
+}
+.ck-content {
+  /* font-style: italic; */
+}
+div .ant-input {
+  text-align: end;
+}
